@@ -1,0 +1,49 @@
+/* Reinicio básico de atributos */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif; /* Tipografía limpia y legible */
+    background-color: #f4f4f9; /* Fondo suave para contraste */
+    color: #333; /* Color de texto principal */
+}
+
+/* Estilo del encabezado */
+.header {
+    background-color: #00bcd4; /* Azul moderno */
+    padding: 10px 20px; /* Espaciado interno */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilo de la lista */
+.header ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around; /* Espaciado equilibrado */
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+/* Espaciado de los elementos de la lista */
+.header ul li {
+    margin: 0 15px;
+}
+
+/* Estilo de los enlaces */
+.header ul li a {
+    text-decoration: none; /* Sin subrayado */
+    color: #ffffff; /* Texto blanco */
+    padding: 8px 12px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: all 0.3s ease; /* Transición suave en hover */
+}
+
+/* Efecto hover para los enlaces */
+.header ul li a:hover {
+    background-color: #0288d1; /* Fondo más oscuro en hover */
+    color: #e0f7fa; /* Texto ligeramente diferente */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Resalte en hover */
+}
+

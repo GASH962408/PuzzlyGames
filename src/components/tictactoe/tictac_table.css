@@ -1,0 +1,25 @@
+.table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+  gap: 15px; /* Espaciado entre cuadros */
+  width: 350px; /* Un poco más de espacio para cada cuadro */
+  margin: 20px auto; /* Centra la tabla horizontalmente */
+  background-color: #f0f0f0; /* Fondo claro */
+  padding: 15px; /* Espaciado interno */
+  border: 3px solid #007bff; /* Borde azul más marcado */
+  border-radius: 15px; /* Bordes redondeados más pronunciados */
+}
+
+.reset-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reset-btn:hover {
+  background-color: #0056b3;
+}
